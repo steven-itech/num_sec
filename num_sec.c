@@ -82,7 +82,7 @@ int main() {
     order_number = ((ssn[10] - '0') * 100) + ((ssn[11] - '0') * 10) + (ssn[12] - '0');
     key = ((ssn[13] - '0') * 10) + (ssn[14] - '0');
 
-    printf("You are: %s\n", label);
+    printf("You are : %s\n", label);
     printf("You were born in : %d or in %d\n", year_1900, year_2000);
     printf("In the month of : %s\n", month_nb);
     printf("In the department : %d\n", department);
